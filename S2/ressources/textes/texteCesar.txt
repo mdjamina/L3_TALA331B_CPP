@@ -1,0 +1,8 @@
+Le texte chiffré s'obtient en remplaçant chaque lettre non diacritée du texte original par une lettre à distance fixe, toujours du même côté, dans l'ordre de l'alphabet. 
+Dans le cas d'un décalage à droite, pour les dernières lettres, on reprend au début. 
+Par exemple, avec décalage vers la droite, si la distance est de 3, alors A est remplacé par D, B devient E, et ainsi de suite jusqu'à W qui devient Z, puis X devient A etc.; si le distance est de 4 alors A est remplacé par E, B devient F, et ainsi de suite jusqu'à W qui devient A, puis X devient B etc.
+Le principe est le même pour les chiffres.
+Dans cette version, les caractères diacrités ne sont pas chiffrés par décalage, mais par un chiffre spécial :
+'ç' ou 'Ç' devient '%' et chaque élément de àâéèêëîïô½ùûüÿ½ et ÀÂÉÈÊËÎÏÔ¼ÙÛÜ¾¼ est chiffré par un des éléments de @#{}[]<>*&/|~$.
+Les signes de ponctuation pris en compte .,;?!:"'«» sont chiffrés par remplacement, ainsi . devient » , devient « ; devient " et ainsi de suite. 
+Les autres caractères restent tels quels.

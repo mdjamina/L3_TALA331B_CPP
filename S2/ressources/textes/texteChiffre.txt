@@ -1,0 +1,34 @@
+
+**********************************************************
+texte chargé : 
+Le texte chiffré s'obtient en remplaçant chaque lettre non diacritée du texte original par une lettre à distance fixe, toujours du même côté, dans l'ordre de l'alphabet. 
+Dans le cas d'un décalage à droite, pour les dernières lettres, on reprend au début. 
+Par exemple, avec décalage vers la droite, si la distance est de 3, alors A est remplacé par D, B devient E, et ainsi de suite jusqu'à W qui devient Z, puis X devient A etc.; si le distance est de 4 alors A est remplacé par E, B devient F, et ainsi de suite jusqu'à W qui devient A, puis X devient B etc.
+Le principe est le même pour les chiffres.
+Dans cette version, les caractères diacrités ne sont pas chiffrés par décalage, mais par un chiffre spécial :
+'ç' ou 'Ç' devient '%' et chaque élément de àâéèêëîïô½ùûüÿ½ et ÀÂÉÈÊËÎÏÔ¼ÙÛÜ¾¼ est chiffré par un des éléments de @#{}[]<>*&/|~$.
+Les signes de ponctuation pris en compte .,;?!:"'«» sont chiffrés par remplacement, ainsi . devient » , devient « ; devient " et ainsi de suite. 
+Les autres caractères restent tels quels.
+
+
+**********************************************************
+
+Quel décalage pour les lettres non diacritées ? 
+** Saisir un nombre inférieur ou égal à 26 
+
+Quel décalage pour les chiffres ? 
+** Attention. Le décalage ne doit pas être supérieur à 10
+
+**********************************************************
+texte crypté : 
+Vo dohdo mrsppb{ c;yldsoxd ox bowzvk%kxd mrkaeo voddbo xyx nskmbsd{o ne dohdo ybsqsxkv zkb exo voddbo @ nscdkxmo psho« dyetyebc ne w[wo m*d{« nkxc v;ybnbo no v;kvzrklod» 
+Nkxc vo mkc n;ex n{mkvkqo @ nbysdo« zyeb voc nobxs}boc voddboc« yx bozboxn ke n{led» 
+Zkb ohowzvo« kfom n{mkvkqo fobc vk nbysdo« cs vk nscdkxmo ocd no 8« kvybc K ocd bowzvkm{ zkb N« L nofsoxd O« od ksxcs no cesdo tecae;@ G aes nofsoxd J« zesc H nofsoxd K odm»' cs vo nscdkxmo ocd no 9 kvybc K ocd bowzvkm{ zkb O« L nofsoxd P« od ksxcs no cesdo tecae;@ G aes nofsoxd K« zesc H nofsoxd L odm»
+Vo zbsxmszo ocd vo w[wo zyeb voc mrsppboc»
+Nkxc moddo fobcsyx« voc mkbkmd}boc nskmbsd{c xo cyxd zkc mrsppb{c zkb n{mkvkqo« wksc zkb ex mrsppbo cz{mskv !
+;%; ye ;%; nofsoxd ;%; od mrkaeo {v{woxd no @#{}[]<>*&/|~$& od @#{}[]<>*&/|~$& ocd mrsppb{ zkb ex noc {v{woxdc no @#{}[]<>*&/|~$»
+Voc csqxoc no zyxmdekdsyx zbsc ox mywzdo »«'":!?;,. cyxd mrsppb{c zkb bowzvkmowoxd« ksxcs » nofsoxd . « nofsoxd , ' nofsoxd ? od ksxcs no cesdo» 
+Voc kedboc mkbkmd}boc bocdoxd dovc aeovc»
+
+
+**********************************************************
